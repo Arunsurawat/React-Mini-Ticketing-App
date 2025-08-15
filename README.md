@@ -1,6 +1,8 @@
 # React-Mini-Ticketing-App
 Build a Mini Ticketing App with React that lets users create, view, and search support tickets.
 ---
+## Demo Preview
+![Ticketing App Demo](assets/demo.gif)
 
 ## Features
 
@@ -30,5 +32,3 @@ npm install
 npm run dev
 
 
-## Demo Preview
-![Ticketing App Demo](assets/demo.gif)
