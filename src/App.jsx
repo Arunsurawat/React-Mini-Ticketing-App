@@ -34,7 +34,7 @@ export default function App() {
       {/* Search + Counter */}
       <div className="toolbar">
         <SearchBar onSearch={setSearchTerm} />
-        <TicketCounter tickets={null} />
+        <TicketCounter tickets={tickets} />
       </div>
 
       {/* Ticket List (auto-updates after creating a new ticket) */}

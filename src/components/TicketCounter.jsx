@@ -1,6 +1,6 @@
-
-
-export default function TicketCounter({ tickets }) {
-  const openCount = tickets.filter(ticket => ticket.status !== 'closed').length;
-  return <div>You have {openCount} open tickets</div>;
+export default function TicketCounter({ tickets = [] }) {
+  const openCount = Array.isArray(tickets)
+    ? tickets.filter((t) => (t?.status ?? 'open') !== 'closed').length
+    : 0;
+  return <div className="counter">You have {openCount} open tickets</div>;
 }
