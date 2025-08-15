@@ -31,4 +31,4 @@ npm run dev
 
 
 ## Demo Preview
-![Ticketing App Demo](assets/demo.webm)
+![Ticketing App Demo](assets/demo.gif)
