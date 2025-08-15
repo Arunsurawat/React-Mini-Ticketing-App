@@ -28,3 +28,7 @@ Build a Mini Ticketing App with React that lets users create, view, and search s
 ```bash
 npm install
 npm run dev
+
+
+## Demo Preview
+![Ticketing App Demo](assets/demo.webm)
